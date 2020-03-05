@@ -1,0 +1,23 @@
+{
+  "name": "qacomponent_proxy_server",
+  "version": "1.0.0",
+  "description": "Proxy Server for Nozama. Author: Zach Yusuf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachystuff/QAComponent_Proxy_Server.git"
+  },
+  "keywords": [],
+  "author": "Zach Yusuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachystuff/QAComponent_Proxy_Server/issues"
+  },
+  "homepage": "https://github.com/zachystuff/QAComponent_Proxy_Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
