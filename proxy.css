@@ -1,0 +1,53 @@
+#proxy {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.5fr 0.5fr 1fr 0.4fr;
+    grid-template-areas: 
+                        "ellis1 ellis1 ellis1"
+                        "poli aaron laura"
+                        "emilio emilio emilio"
+                        "martin martin martin"
+                        "zach zach zach"
+                        "ellis2 ellis2 ellis2"
+    ;
+}
+
+#ellis1 {
+    grid-area: ellis1;
+    width: 100%;
+    background-color: aqua;
+}
+#laura{
+    grid-area: laura;
+    width: 100%;
+    background-color: purple;
+}
+#poli{
+    grid-area: poli;
+    width: 100%;
+    background-color: blue;
+}
+#aaron{
+    grid-area: aaron;
+    width: 100%;
+    /* background-color: red; */
+}
+#emilio{
+    grid-area: emilio;
+    width: 100%;
+    background-color: darksalmon;
+}
+#martin{
+    grid-area: martin;
+    width: 100%;
+    /* background-color: rgb(255, 0, 179); */
+}
+#zach{
+    grid-area: zach;
+    width: 100%;
+}
+#ellis2{
+    grid-area: ellis2;
+    width: 100%;
+    background-color: aqua;
+}
